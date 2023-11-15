@@ -1,14 +1,6 @@
 /* Ejemplo de uso de arrays y recorridos  : https://www.youtube.com/watch?v=7R6DE5iC3ro*/
 /* https://github.com/atherosai/ui */
 
-
-let btn = document.querySelector(".fa-bars");
-let sidebar = document.querySelector(".sidebar");
-
-/* btn.addEventListener("click", () => {
-  sidebar.classList.toggle("close");
-}); */
-
 let arrows = document.querySelectorAll(".arrow");
 for (var i = 0; i < arrows.length; i++) {
   arrows[i].addEventListener("click", (e) => {
